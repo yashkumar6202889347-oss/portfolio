@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saroj Kumar | Portfolio</title>
+    <meta name="description"
+        content="Saroj Kumar - Personal Portfolio. Futuristic design showcasing skills in Python, JavaScript, and Frontend Development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="glass-nav">
+            <div class="nav-container">
+                <a href="#" class="logo">SAROJ <span>KUMAR</span></a>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact" class="cta-nav">Connect</a>
+                </div>
+                <div class="mobile-toggle">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="glow-sphere"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h2 class="sub-headline">Frontend Developer & C++ Programmer</h2>
+                    <h1 class="headline">Building the <span class="accent">Future</span> of Web.</h1>
+                    <p class="hero-p">I aspire to work for a reputable organization where I can acquire new skills and
+                        grow through continuous learning and hard work.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper rounded">
+                        <img src="assets/profile_new.png" alt="Saroj Kumar" class="profile-img">
+                        <div class="frame circle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Overview</span>
+                    <h2 class="section-title">Career Objective</h2>
+                </div>
+                <p class="about-text">
+                    Hardworking and dedicated individual with a strong foundation in programming and web technologies.
+                    Continuously seeking opportunities to apply my technical skills to real-world challenges while
+                    growing alongside a forward-thinking organization.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Expertise</span>
+                    <h2 class="section-title">Core Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i data-lucide="code-2" class="skill-icon"></i>
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>C++17</li>
+                            <li>Python3</li>
+                            <li>JavaScript</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="layout" class="skill-icon"></i>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 (Modern)</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX Basics</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <i data-lucide="zap" class="skill-icon"></i>
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Problem Solving</li>
+                            <li>Quick Learner</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-icon-box">
+                            <i data-lucide="brain-circuit"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Quiz Application</h3>
+                            <p>A C++17 desktop application for quiz administration with teacher and student modules.</p>
+                            <div class="project-tags">
+                                <span>C++17</span>
+                                <span>File Handling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-icon-box">
+                            <i data-lucide="shopping-bag"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Amazon Clone</h3>
+                            <p>Responsive e-commerce frontend with product listings, cart, and search UI.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-icon-box">
+                            <i data-lucide="layout-template"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+                            <p>A professional showcase of projects and skills with modern animations.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Validation</span>
+                    <h2 class="section-title">Certifications</h2>
+                </div>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <i data-lucide="award" class="cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Learn Python Programming Language</h3>
+                            <p>Issued by Udemy</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i data-lucide="award" class="cert-icon"></i>
+                        <div class="cert-content">
+                            <h3>Provisional State Trade Certificate</h3>
+                            <p>Issued by State Council Of Vocational Training</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Milestones</span>
+                    <h2 class="section-title">Achievements</h2>
+                </div>
+                <div class="achievements-list">
+                    <div class="achievement-item">
+                        <i data-lucide="check-circle" class="accent"></i>
+                        <p>Successfully qualified recruitment assessments and appeared for Technical and HR interviews at Accenture, TCS, Cognizant, and HCL Technologies.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <i data-lucide="check-circle" class="accent"></i>
+                        <p>Solved 700+ Questions on codeChef.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Journey</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Current</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Technocrats Institute of Technology, Bhopal</h3>
+                            <p>Bachelor of Technology</p>
+                            <span class="grade">80.50%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Intermediate</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>R.S.S Science College, Sitamarhi</h3>
+                            <p>Intermediate Science</p>
+                            <span class="grade">76%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Schooling</div>
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>S J High School, Sitamarhi</h3>
+                            <p>Matriculation</p>
+                            <span class="grade">71.6%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card glass">
+                    <div class="contact-info">
+                        <h2>Let's build something <span class="accent">extraordinary</span>.</h2>
+                        <div class="contact-methods">
+                            <a href="mailto:yashkumar6202889374@gmail.com" class="contact-item">
+                                <i data-lucide="mail"></i>
+                                <span>yashkumar6202889374@gmail.com</span>
+                            </a>
+                            <a href="tel:6202889347" class="contact-item">
+                                <i data-lucide="phone"></i>
+                                <span>+91 6202889347</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/saroj-kumar-66081b266" target="_blank"
+                                class="contact-item">
+                                <i data-lucide="linkedin"></i>
+                                <span>saroj-kumar-66081b266</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Saroj Kumar. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
